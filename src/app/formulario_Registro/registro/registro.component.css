@@ -1,0 +1,103 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+.container {
+  max-width: 80vw;
+  margin: 5vh auto;
+  padding: 2vh;
+  background-color: #fff;
+  box-shadow: 0 0 1vw rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  text-align: center;
+  color: #333;
+}
+
+form {
+  margin-bottom: 3vh;
+}
+
+label {
+  display: block;
+  margin: 2vh 0 1vh;
+}
+
+input {
+  width: calc(100% - 4vh);
+  padding: 1.5vh;
+  margin-bottom: 2vh;
+  border: 0.1vw solid #ccc;
+  border-radius: 0.4vw;
+}
+
+button {
+  width: calc(100% - 4vh);
+  padding: 2vh;
+  margin-bottom: 2vh;
+  background-color: #0056b3;
+  color: white;
+  border: none;
+  border-radius: 0.4vw;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #004494;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 3vh;
+}
+
+th, td {
+  text-align: left;
+  padding: 1.5vh;
+  border-bottom: 0.1vw solid #ddd;
+}
+
+th {
+  background-color: #f7f7f7;
+}
+
+.btn {
+  padding: 1vh 2vh;
+  margin-right: 1vh;
+  border: none;
+  border-radius: 0.4vw;
+  cursor: pointer;
+}
+
+.btn-danger {
+  background-color: #d9534f;
+  color: white;
+}
+
+.btn-danger:hover {
+  background-color: #c9302c;
+}
+
+.btn-primary {
+  background-color: #0275d8;
+  color: white;
+}
+
+.btn-primary:hover {
+  background-color: #025aa5;
+}
